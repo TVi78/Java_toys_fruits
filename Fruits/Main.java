@@ -18,7 +18,7 @@ public class Main {
   public static void main(String[] args) throws FileNotFoundException {
     int sum = 0;
     String maxLength = "";
-    Map<String, Integer> map = fillMap("Fruits/input.txt");
+    Map<String, Integer> map = fillMap("input.txt");
     for (int value : map.values()) {
       sum += value;
     }
